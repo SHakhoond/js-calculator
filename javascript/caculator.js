@@ -15,11 +15,8 @@ var result;// for finding reuslt calculation
 				input.innerHTML = input.innerHTML.slice(0, -1);
 				
 			}else if (printInput === "AC") {// if press AC erase everything
-				input.innerHTML; = "";
-			}
-
-
-			else if (printInput === "="){//if press = caculate and display
+				input.innerHTML = "";
+			}else if (printInput === "="){//if press = caculate and display
 				result = inputVal;
 				input.innerHTML = myEval(result);
 			
